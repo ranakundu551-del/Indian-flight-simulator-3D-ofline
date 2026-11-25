@@ -33,3 +33,5 @@ jobs:
         with:
           name: India-Flight-Simulator-APK
           path: app/build/outputs/apk/debug/*.apk
+- name: Setup Android SDK
+  uses: android-actions/setup-android@v3
